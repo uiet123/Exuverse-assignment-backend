@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://exuverse-assignment.vercel.app/",
+    origin: "https://exuverse-assignment.vercel.app",
     credentials: true,
   })
 );
