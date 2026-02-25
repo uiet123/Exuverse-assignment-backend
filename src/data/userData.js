@@ -1,0 +1,60 @@
+const usersData = [
+  { id: 1, firstName: "Aman", lastName: "Sharma", email: "aman1@test.com" },
+  { id: 2, firstName: "Rohit", lastName: "Verma", email: "rohit2@test.com" },
+  { id: 3, firstName: "Neha", lastName: "Singh", email: "neha3@test.com" },
+  { id: 4, firstName: "Priya", lastName: "Kumar", email: "priya4@test.com" },
+  { id: 5, firstName: "Arjun", lastName: "Mehta", email: "arjun5@test.com" },
+  { id: 6, firstName: "Simran", lastName: "Gill", email: "simran6@test.com" },
+  { id: 7, firstName: "Karan", lastName: "Kapoor", email: "karan7@test.com" },
+  { id: 8, firstName: "Sneha", lastName: "Rao", email: "sneha8@test.com" },
+  { id: 9, firstName: "Rahul", lastName: "Malhotra", email: "rahul9@test.com" },
+  { id: 10, firstName: "Isha", lastName: "Arora", email: "isha10@test.com" },
+
+  { id: 11, firstName: "Vikram", lastName: "Chauhan", email: "vikram11@test.com" },
+  { id: 12, firstName: "Anjali", lastName: "Joshi", email: "anjali12@test.com" },
+  { id: 13, firstName: "Yash", lastName: "Bansal", email: "yash13@test.com" },
+  { id: 14, firstName: "Pooja", lastName: "Agarwal", email: "pooja14@test.com" },
+  { id: 15, firstName: "Dev", lastName: "Saxena", email: "dev15@test.com" },
+  { id: 16, firstName: "Ritika", lastName: "Pandey", email: "ritika16@test.com" },
+  { id: 17, firstName: "Manav", lastName: "Tiwari", email: "manav17@test.com" },
+  { id: 18, firstName: "Tanya", lastName: "Sethi", email: "tanya18@test.com" },
+  { id: 19, firstName: "Aditya", lastName: "Nair", email: "aditya19@test.com" },
+  { id: 20, firstName: "Kriti", lastName: "Desai", email: "kriti20@test.com" },
+
+  { id: 21, firstName: "Harsh", lastName: "Yadav", email: "harsh21@test.com" },
+  { id: 22, firstName: "Nidhi", lastName: "Gupta", email: "nidhi22@test.com" },
+  { id: 23, firstName: "Varun", lastName: "Khanna", email: "varun23@test.com" },
+  { id: 24, firstName: "Megha", lastName: "Bhatia", email: "megha24@test.com" },
+  { id: 25, firstName: "Sahil", lastName: "Jain", email: "sahil25@test.com" },
+  { id: 26, firstName: "Aditi", lastName: "Kapoor", email: "aditi26@test.com" },
+  { id: 27, firstName: "Rohan", lastName: "Mishra", email: "rohan27@test.com" },
+  { id: 28, firstName: "Payal", lastName: "Shukla", email: "payal28@test.com" },
+  { id: 29, firstName: "Kabir", lastName: "Soni", email: "kabir29@test.com" },
+  { id: 30, firstName: "Divya", lastName: "Thakur", email: "divya30@test.com" },
+
+  { id: 31, firstName: "Aryan", lastName: "Singhal", email: "aryan31@test.com" },
+  { id: 32, firstName: "Muskan", lastName: "Chawla", email: "muskan32@test.com" },
+  { id: 33, firstName: "Laksh", lastName: "Goyal", email: "laksh33@test.com" },
+  { id: 34, firstName: "Sana", lastName: "Kohli", email: "sana34@test.com" },
+  { id: 35, firstName: "Om", lastName: "Rastogi", email: "om35@test.com" },
+  { id: 36, firstName: "Tanvi", lastName: "Malik", email: "tanvi36@test.com" },
+  { id: 37, firstName: "Krish", lastName: "Bhardwaj", email: "krish37@test.com" },
+  { id: 38, firstName: "Ira", lastName: "Suri", email: "ira38@test.com" },
+  { id: 39, firstName: "Vihaan", lastName: "Arvind", email: "vihaan39@test.com" },
+  { id: 40, firstName: "Myra", lastName: "Rajput", email: "myra40@test.com" },
+
+  { id: 41, firstName: "Rudra", lastName: "Menon", email: "rudra41@test.com" },
+  { id: 42, firstName: "Avni", lastName: "Reddy", email: "avni42@test.com" },
+  { id: 43, firstName: "Shaurya", lastName: "Iyer", email: "shaurya43@test.com" },
+  { id: 44, firstName: "Anika", lastName: "Pillai", email: "anika44@test.com" },
+  { id: 45, firstName: "Reyansh", lastName: "Das", email: "reyansh45@test.com" },
+  { id: 46, firstName: "Kiara", lastName: "Bhagat", email: "kiara46@test.com" },
+  { id: 47, firstName: "Ishaan", lastName: "Dutta", email: "ishaan47@test.com" },
+  { id: 48, firstName: "Navya", lastName: "Patel", email: "navya48@test.com" },
+  { id: 49, firstName: "Aarav", lastName: "Trivedi", email: "aarav49@test.com" },
+  { id: 50, firstName: "Siya", lastName: "Kashyap", email: "siya50@test.com" }
+];
+
+
+
+module.exports = usersData;

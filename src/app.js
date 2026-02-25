@@ -16,9 +16,12 @@ app.use(
 app.use(express.json());
 app.use(cookieParser())
 
+
 const authRouter = require("./routes/auth")
+const dashboardRouter = require("./routes/dashboard")
 
 app.use("/", authRouter)
+app.use("/", dashboardRouter)
 
 connectDB()
 .then(() => {
