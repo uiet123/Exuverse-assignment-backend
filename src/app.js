@@ -26,7 +26,7 @@ app.use("/", dashboardRouter)
 connectDB()
 .then(() => {
     console.log("Database connection established...")
-    const PORT = process.env.PORT
+    const PORT = process.env.PORT || 5000;
     app.listen(PORT, () => {
     console.log("server up on port " + PORT)
 })
