@@ -7,7 +7,7 @@ const { SignUpValidation } = require("../utils/validations");
 
 authRouter.post("/signup", async (req, res) => {
   try {
-    SignUpValidation(req)
+    SignUpValidation(req);
     const { firstName, lastName, emailId, password } = req.body;
 
     const passwordHash = await bcrypt.hash(password, 10);
@@ -19,7 +19,11 @@ authRouter.post("/signup", async (req, res) => {
     });
     const savedUser = await user.save();
     const token = await savedUser.getJWT();
-    res.cookie("token", token);
+    res.cookie("token", token, {
+      httpOnly: true,
+      secure: true,
+      sameSite: "None",
+    });
     res.json({ message: "User signed up successfully", data: savedUser });
   } catch (err) {
     res.status(401).send(`Error: ${err.message}`);
@@ -45,8 +49,6 @@ authRouter.post("/login", async (req, res) => {
     res.status(401).send(`Error: ${err.message}`);
   }
 });
-
-
 
 authRouter.get("/auth/me", userAuth, async (req, res) => {
   try {

@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://exuverse-assignment.vercel.app/"],
+    origin: "https://exuverse-assignment.vercel.app/",
     credentials: true,
   })
 );
